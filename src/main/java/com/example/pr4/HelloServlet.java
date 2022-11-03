@@ -3,7 +3,7 @@ package com.example.pr4;
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
-sd
+
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
     private String message;
